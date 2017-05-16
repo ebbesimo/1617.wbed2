@@ -1,0 +1,53 @@
+/***** General Classes *****/
+
+body{
+    background: url("../assets/images/hero_image.jpg");
+    height: 100 vh;
+    background-position: center 20%;
+}
+
+/***** Main Classes ******/
+
+#container-main #homepage-content{
+    max-width: 700px;
+    margin: 20% auto 0px auto;
+    display: block;
+    text-align: center;
+}
+
+#container-main #homepage-content h1{
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 500;
+    color: #FFF;
+}
+
+#container-main #homepage-content a{
+  display: inline-block;
+  padding: 12px 20px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #2ca2f3;
+  color:  #2f3c4d;
+  margin-top: 20px;
+  transition: 1s all ease;
+  border: 2px solid #2f3c4d;
+}
+
+#container-main #homepage-content p { 
+  font-family: 'Roboto', sans-serif;;
+  font-weight: 400;
+  font-size: 1.2rem;
+  position:  relative;
+  color: #FFF;
+  top: 53%;
+  left: 50%;
+  text-align: center;
+  transform:  translate(-50%,-50%);
+}
+
+#container-main #homepage-content a:hover{
+  background-color:#8ca2a7;
+}
+

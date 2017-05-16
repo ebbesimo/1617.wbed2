@@ -1,0 +1,206 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');
+/****** General Classes ******/
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper{
+    width: 100%;
+}
+
+#wrapper-header{
+    background: #2f3c4d;
+    padding: 0px 0px 10px 0px;
+}
+
+#wrapper-header > #nav-decoration{
+    height: 10px;
+    width: 100%;
+    display: block;
+    background: #36a9e0;
+}
+
+#wrapper-footer{
+    background: #2f3c4d;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+#container-footer{
+    padding: 10px;
+    color: #8ca2a7;
+}
+
+/***** Header Classes *****/
+
+#container-header > h1{
+    margin: 0px;
+    float: left;
+    margin: 10px 0px 0px 7px;
+    position: relative;
+    bottom: -1px;
+}
+
+#container-header > h1 > a{
+    display: block;
+    width: 150px;
+    height: 65px;
+    background: url('../assets/images/logo.png');
+    background-size: cover;
+    text-indent: -9999em;
+}
+
+#container-header > #nav-toggle{
+    display: block;
+    text-indent: -9999em;
+    width: 50px;
+    height: 50px;
+    background: url('../assets/images/nav_toggle.png');
+    background-size: cover;
+    float: right;
+    cursor: pointer;
+    margin: 13px 7px 0px 0px;
+}
+
+#container-header > nav{
+    clear: both;
+}
+
+#container-header > nav > ul{
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+    display: none;
+}
+
+#container-header > nav > ul > li > a{
+    background: #9ab2b7;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    padding: 9px 0px 9px 7px;
+    border-bottom: 1px solid #8ca2a7;
+    color: #36a9e0;
+    transition: 0.5s all ease;
+}
+
+#container-header > nav > ul > li > a:hover{
+    background: #2f3c4d;
+    color: #9ab2b7;
+}
+
+#container-header > nav > ul > li:last-of-type > a{
+    border-bottom: none;
+}
+
+.current{
+    background: #36a9e0;
+}
+
+#container-header > nav > ul > li.current > a{
+    color:#2f3c4d;
+}
+
+/***** Footer Classes *****/
+
+.footer-homepage{
+    bottom: 0 !important;
+    position: fixed !important;
+}
+
+#container-footer > p{
+    text-align: center;
+    font-size: 12px;
+}
+
+#wrapper-footer{
+    margin-top: 25px;
+}
+
+/***** @media Grid *****/
+
+@media(max-width:479px){
+
+}
+
+@media(min-width:480px) and (max-width:678px){
+
+}
+
+@media(min-width:679px) and (max-width:959px){
+    
+}
+
+@media(min-width:960px) and (max-width:1139px){
+    
+}
+
+@media(min-width:1140px){
+    
+}
+
+/***** @media Custom *****/
+
+@media(min-width:679px){
+
+    #container-header > #nav-toggle{
+        display: none;
+    }
+
+    #container-header > nav > ul{
+        display: block;
+    }
+
+    #container-header > nav{
+        clear: none;
+    }
+
+    #container-header > nav > ul > li{
+        float: left;
+    }
+
+    #container-header > nav > ul > li:first-of-type{
+        margin: 0px 0px 0px 30px !important;
+    }
+
+    #container-header > nav > ul > li > a{
+        background: none;
+        width: 100%;
+        display: block;
+        text-decoration: none;
+        padding: 27px 30px 26px 30px;
+        border-bottom: none;
+        font-weight: 400;
+    }
+
+    #container-header > nav > ul > li > a:hover{
+        padding: 27px 30px 26px 30px;
+        border-bottom: none;
+        background: #36a9e0;
+        color: #2f3c4d;
+        font-weight: 500;
+    }
+
+    #container-header > nav > ul > li:last-of-type > a{
+        border-bottom: none;
+    }
+
+    #header-clear{
+        clear: both;
+    }
+
+}
+
+/***** Fonts *****/
+
+@import url("https://fonts.googleapis.com/css?family=Roboto");

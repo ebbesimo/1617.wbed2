@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+div.viewpicture a{
+    height: 100vh;
+}
+
+/*pictures Dark Souls*/
+
+#viewpicture_ds1{
+    background: url("../assets/images/darksouls1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#viewpicture_ds2{
+    background: url("../assets/images/darksouls2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#viewpicture_ds3{
+    background: url("../assets/images/darksouls3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+/*pictures Overwatch*/
+
+#viewpicture_ow1{
+    background: url("../assets/images/overwatch1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#viewpicture_ow2{
+    background: url("../assets/images/overwatch2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#viewpicture_ow3{
+    background: url("../assets/images/overwatch3.png");
+    background-position: center;
+    background-size: cover;
+}
+
+/*pictures Legion*/
+
+#viewpicture_lg1{
+    background: url("../assets/images/legion1.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#viewpicture_lg2{
+    background: url("../assets/images/legion2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#viewpicture_lg3{
+    background: url("../assets/images/legion3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+/*pictures Titanfall*/
+
+#viewpicture_tf1{
+    background: url("../assets/images/titanfall1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#viewpicture_tf2{
+    background: url("../assets/images/titanfall2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#viewpicture_tf3{
+    background: url("../assets/images/titanfall3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+/*pictures Battlefield*/
+
+#viewpicture_bf1{
+    background: url("../assets/images/bf1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#viewpicture_bf2{
+    background: url("../assets/images/bf2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#viewpicture_bf3{
+    background: url("../assets/images/bf3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+/*pictures Battlefield*/
+
+#viewpicture_guard1{
+    background: url("../assets/images/guardian1.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#viewpicture_guard2{
+    background: url("../assets/images/guardian2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#viewpicture_guard3{
+    background: url("../assets/images/guardian3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.viewpicture{
+    padding: 0px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    color:  #F1F1F1;
+    transition: 1s all ease;
+    height: 100vh;
+    line-height: 600px;
+}
+
+.fa-arrow-circle-left{
+    color: 	rgba(158, 158, 158, 1.0);
+    margin-left: 10px;
+    transition: 1s all ease;    
+}
+
+.fa-arrow-circle-left:hover{
+    font-size: 60px;
+    color:#2ca2f3;
+    transition: 1s all ease;    
+}
+

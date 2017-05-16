@@ -1,0 +1,274 @@
+
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+form{
+    margin: 40px 100px 15px 0px;
+}
+
+form header {
+  margin: 0 0 20px 0; 
+}
+form header div {
+  font-size: 90%;
+  color: #999;
+}
+form header h2 {
+  margin: 0 0 5px 0;
+}
+form > div {
+  clear: both;
+  overflow: hidden;
+  padding: 1px;
+  margin: 0 0 10px 0;
+}
+form > div > fieldset > div > div {
+  margin: 0 0 5px 0;
+}
+form > div > label,
+legend {
+	width: 25%;
+  float: left;
+  padding-right: 10px;
+}
+form > div > div,
+form > div > fieldset > div {
+  width: 75%;
+  float: right;
+}
+form > div > fieldset label {
+	font-size: 90%;
+}
+fieldset {
+	border: 0;
+  padding: 0;
+}
+
+.desc{
+    color: #2f3c4d;
+    font-weight: Bold;
+    font-size: 15px;
+}
+
+input[type=text],
+input[type=email],
+input[type=url],
+input[type=password],
+textarea {
+	width: 100%;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+input[type=text],
+input[type=email],
+input[type=url],
+input[type=password] {
+  width: 50%;
+}
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=url]:focus,
+input[type=password]:focus,
+textarea:focus {
+  outline: 0;
+  border-color: #4697e4;
+}
+
+@media (max-width: 600px) {
+  form > div {
+    margin-left:30px; 
+  }
+  form > div > label,
+  legend {
+	  width: 100%;
+    float: none;
+    margin: 0 0 5px 0;
+  }
+  form > div > div,
+  form > div > fieldset > div {
+    width: 100%;
+    float: none;
+  }
+  input[type=text],
+  input[type=email],
+  input[type=url],
+  input[type=password],
+  textarea,
+  select {
+    width: 100%; 
+  }
+}
+
+textarea{
+    resize: none;
+    max-width: 600px;
+}
+
+@media (min-width: 600px) {
+  form > div > label,
+	legend {
+  	text-align: right;
+  }
+}
+
+/*** info css ***/
+
+h1{
+    color: #2f3c4d;
+    font-weight: Bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+h2{
+    color: #2f3c4d;
+    font-weight: Bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+h3{
+    color: #2f3c4d;
+    font-weight: normal;
+    font-size: 15px;
+    text-align: center;
+}
+
+#div-logo-contact{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#logo-contact{
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+table {
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.contact-links{
+    text-align: right;
+    color: #2f3c4d;
+    font-weight: Bold;
+    font-size: 15px;
+    padding-right: 20px;
+}
+
+.contact-rechts{
+    text-align: left;
+}
+
+#map{
+    display: block;
+    margin: 0 auto;
+}
+
+.social-media{
+    margin-top: 30px;
+    text-decoration: none;
+    font-size: 65px;
+    text-align: center;
+}
+
+.fa-facebook-square{
+    font-size: 65px;
+    color:#2f3c4d;
+    transition: 1s all ease;    
+}
+
+.fa-facebook-square:hover{
+    font-size: 75px;
+    color:#2ca2f3;
+    transition: 1s all ease;    
+}
+
+.fa-facebook-square:active{
+    font-size: 65px;
+    transition: 1s all ease;    
+}
+
+.fa-google-plus-square{
+    font-size: 65px;
+    color:#2f3c4d;
+    transition: 1s all ease;    
+}
+
+
+.fa-google-plus-square:hover{
+    font-size: 75px;
+    color:#2ca2f3;
+    transition: 1s all ease;    
+}
+
+.fa-google-plus-square:active{
+    font-size: 65px;
+    transition: 1s all ease;    
+}
+
+.fa-twitter{
+    font-size: 65px;
+    color:#2f3c4d;
+    transition: 1s all ease;    
+}
+
+
+.fa-twitter:hover{
+    font-size: 75px;
+    color:#2ca2f3;
+    transition: 1s all ease;
+    text-decoration: none;    
+}
+
+.fa-twitter:active{
+    font-size: 65px;
+    transition: 1s all ease;    
+}
+
+.fa-instagram{
+    font-size: 65px;
+    color:#2f3c4d;
+    transition: 1s all ease;    
+}
+
+
+.fa-instagram:hover{
+    font-size: 75px;
+    color:#2ca2f3;
+    transition: 1s all ease;
+    text-decoration: none;    
+}
+
+.fa-instagram:active{
+    font-size: 65px;
+    transition: 1s all ease;    
+}
+
+.fa-youtube-square{
+    font-size: 65px;
+    color:#2f3c4d;
+    transition: 1s all ease;    
+}
+
+
+.fa-youtube-square:hover{
+    font-size: 75px;
+    color:#2ca2f3;
+    transition: 1s all ease;
+    text-decoration: none;    
+}
+
+.fa-youtube-square:active{
+    font-size: 65px;
+    transition: 1s all ease;    
+}
+

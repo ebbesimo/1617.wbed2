@@ -1,0 +1,81 @@
+body{
+    background-color: #F1F1F1;
+}
+
+#container-guardian{
+        font-family: 'Roboto', sans-serif;
+        padding: 0px 15px;
+}
+
+#guardian-content > h1{
+    color: #2f3c4d;
+    font-weight: Bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+#guardian-content > p{
+    padding: 15px 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#guardian-content > h2{
+    color: #2f3c4d;
+    padding: 15px 0px;
+    text-transform: uppercase;
+    font-weight: Bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Designs */
+
+#container-guardian #guardian-content a{
+    display: block;
+    margin: auto;
+    padding: 12px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    background: #8ca2a7;
+    color:  #F1F1F1;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    transition: 1s all ease;
+    border: 2px solid #2f3c4d;
+    width: 95%;
+    height: 600px;
+    line-height: 600px;
+    border: 6px solid #2f3c4d;
+}
+
+
+#container-guardian #guardian-content #a1{ 
+    background: url("../assets/images/guardian1.png");
+    background-position: center 20%;
+}
+
+#container-guardian #guardian-content #a2{ 
+    margin-top: 30px;
+    background: url("../assets/images/guardian2.jpg");
+    background-position: center 20%;
+}
+
+#container-guardian #guardian-content #a3{ 
+    margin-top: 30px;
+    background: url("../assets/images/guardian3.jpg");
+    background-position: center 20%;
+}
+
+#container-guardian #guardian-content a:hover{
+    font-size: 23px;
+    color:#2ca2f3;
+}
+
+.kruimelspoor{
+    margin-top: 5px;
+    font-weight: bold;
+}

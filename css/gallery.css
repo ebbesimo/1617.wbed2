@@ -1,0 +1,95 @@
+body{
+    background-color: #F1F1F1;
+}
+
+h2{
+    color:#2f3c4d;
+    text-align: center;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+#gallery-content{
+    margin-top: 30px;
+}
+
+
+/***** general container classes *****/
+
+#container-gallery #gallery-content a{
+    display: block;
+    margin: auto;
+    padding: 12px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.3em;
+    text-align: center;
+    background: #8ca2a7;
+    color:  #F1F1F1;
+    margin-top: 15px;
+    transition: 1s all ease;
+    border: 2px solid #2f3c4d;
+    width: 95%;
+    height: 600px;
+    line-height: 600px;
+    border: 6px solid #2f3c4d;
+}
+
+/***** specific container classes *****/
+
+#container-gallery #gallery-content #a-overwatch{ 
+    margin-top: 30px;
+    background: url("../assets/images/overwatch1.jpg");
+    background-position: center 20%;
+}
+
+#container-gallery #gallery-content #a-darksouls{ 
+    margin-top: 30px;
+    background: url("../assets/images/darksouls1.jpg");
+    background-position: center 20%;
+}
+
+#container-gallery #gallery-content #a-battlefield{ 
+    margin-top: 30px;
+    background: url("../assets/images/bf1.jpg");
+    background-position: center 20%;
+}
+
+#container-gallery #gallery-content #a-legion{ 
+    margin-top: 30px;
+    background: url("../assets/images/legion2.jpg");
+    background-position: center 20%;
+}
+
+#container-gallery #gallery-content #a-thelastguardian{ 
+    margin-top: 30px;
+    background: url("../assets/images/guardian1.png");
+    background-position: center 20%;
+}
+
+#container-gallery #gallery-content #a-titanfall{ 
+    margin-top: 30px;
+    background: url("../assets/images/titanfall1.jpg");
+    background-position: center 20%;
+}
+
+/***** specific container classes hover *****/
+
+#container-gallery #gallery-content a:hover{
+    font-size: 1.4em;
+    color:#2ca2f3;
+}
+
+@media(max-width:479px){
+
+#container-gallery #gallery-content a{
+    font-size: 16px;
+
+}
+
+#container-gallery #gallery-content a:hover{
+    font-size: 17px;
+    color:#2ca2f3;
+}
+}

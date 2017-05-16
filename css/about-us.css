@@ -1,0 +1,34 @@
+body{
+    background-color: #F1F1F1;
+}
+
+#about-content{
+    margin: 15px 0px 0px 0px
+}
+
+#about-content > h2{
+    color:#2f3c4d;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+#table-about > table{
+    margin: 0 auto;
+}
+.picture{
+    margin-left: 2.5%;
+}
+.picture > td{
+    height: 297px;
+    width: 210px;
+    background-color: #2f3c4d;
+    border-style: solid;
+    border-color: #2ca2f3;
+}
+
+td{
+    padding-right: 50px;
+}
+
