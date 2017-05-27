@@ -9,26 +9,38 @@ body{
 #about-content > h2{
     color:#2f3c4d;
     text-align: center;
-    text-transform: uppercase;
     font-size: 16pt;
     font-weight: bold;
 }
 
-#table-about > table{
-    margin: 0 auto;
-}
-.picture{
-    margin-left: 2.5%;
-}
-.picture > td{
-    height: 297px;
-    width: 210px;
-    background-color: #2f3c4d;
-    border-style: solid;
-    border-color: #2ca2f3;
+#who-are-we{
+    margin: 0px 100px auto;
+    text-align: auto;
 }
 
-td{
-    padding-right: 50px;
+.persoon{
+    margin-left: 125px;
+    margin-bottom: 70px;
 }
 
+.logos{
+    margin-top: 30px;
+}
+
+.logos1 > a{
+    margin-right: 30px;
+}
+
+.logos2 > a{
+    margin-right: 30px;
+}
+
+.logos2{
+    margin-left: 410px;
+    margin-bottom: 20px;
+}
+
+.logos1{
+    margin-left:120px;
+    margin-bottom: 20px;
+}

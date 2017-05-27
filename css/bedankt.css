@@ -1,0 +1,31 @@
+h1{
+    font-size: 30pt;
+    color: #F1F1F1;
+    margin: 0 0px 20px 50px;
+    padding-top: 50px;
+}
+
+a:hover{
+    text-decoration: none;
+    background: #36a9e0;
+    font-size: 20pt;
+    border: 3px solid #36a9e0;
+    transition: 1s all ease;
+}
+
+a{
+    text-decoration: none;
+    background: #F1F1F1;
+    font-size: 20pt;
+    color: #2f3c4d;
+    margin: 50px 0px 20px 50px;
+    padding: 5px;
+    border: 2px solid grey;
+}
+
+.bedankt{
+    background-color: #2f3c4d;
+    position: center center;
+    height: 100vh;
+    margin: 0;
+}
