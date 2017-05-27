@@ -214,7 +214,8 @@ html, body {
 
 .imgiconen{
     clear: left;
-    padding-top: 40px; 
+    padding-top: 40px;
+    margin: 30px 300px;
 }
 
 .imgiconen > a{
@@ -294,6 +295,11 @@ html, body {
     color:#2ca2f3;
     transition: 1s all ease;
     text-decoration: none;    
+}
+
+
+.divmap{
+    margin: 30px 300px;
 }
 
 
