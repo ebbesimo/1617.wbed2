@@ -1,0 +1,118 @@
+h1{
+    color:#2f3c4d;
+    text-align: center;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+
+p{
+    color: #2f3c4d;
+}
+
+#container-footer > p{
+    color: #8ca2a7;
+}
+
+
+.intro{
+    margin: 20px 480px 20px 250px;
+    text-align: justify;
+    font-size: 11pt;
+}
+
+
+.step1{
+    margin: 20px 250px 20px 480px;
+    text-align: right;
+}
+
+.step1 > p{
+    text-align: justify;
+}
+
+.step2{
+    margin: 20px 480px 20px 250px;
+    text-align: left;
+}
+
+.step2 > p{
+    text-align: justify;
+}
+
+.step3{
+    margin: 20px 250px 20px 480px;
+    text-align: right;
+}
+
+.step3 > p{
+    text-align: justify;
+}
+
+.knop{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 
+}
+
+.knop > a:hover{
+    text-decoration: none;
+    background: #F1F1F1;
+    font-size: 20pt;
+    color: #2f3c4d;
+    border: 3px solid #2f3c4d;
+    transition: 1s all ease;
+}
+
+.knop > a{
+    text-decoration: none;
+    background: #2f3c4d;
+    font-size: 20pt;
+    font-weight: bold;
+    color: #36a9e0;
+    position: center;
+    padding: 5px;
+    border: 2px solid grey;
+    transition: 1s all ease;
+}
+
+
+@media(max-width:479px){
+
+.intro{
+    margin: 20px 40px 20px 20px;
+    text-align: justify;
+    font-size: 11pt;
+}
+
+
+.step1{
+    margin: 20px 20px 20px 40px;
+    text-align: right;
+}
+
+.step1 > p{
+    text-align: justify;
+}
+
+.step2{
+    margin: 20px 40px 20px 20px;
+    text-align: left;
+}
+
+.step2 > p{
+    text-align: justify;
+}
+
+.step3{
+    margin: 20px 20px 20px 40px;
+    text-align: right;
+}
+
+.step3 > p{
+    text-align: justify;
+}
+
+
+}

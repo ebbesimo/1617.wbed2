@@ -127,6 +127,12 @@ html, body {
     margin-top: 25px;
 }
 
+.disclaimer{
+    text-decoration: none;
+    text-decoration: underline;
+    color: #F1F1F1;
+}
+
 /***** @media Grid *****/
 
 @media(max-width:479px){
